@@ -1,5 +1,5 @@
 <template>
-  <h1 class="project">hani + cammy reaction timer</h1>
+  <h1 class="project">hani's reaction timer</h1>
   <button @click="start" :disabled="isPlaying">Play</button>
   <Block v-if="isPlaying" :delay="delay" @done="endGame" />
   <Results v-if="showResults" :score="score" />
