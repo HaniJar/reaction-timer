@@ -13,7 +13,7 @@ export default {
   },
   mounted() {
     if (this.score < 250) {
-      this.speed = "Very fast";
+      this.speed = "Very super fast";
     } else if (this.score < 400) {
       this.speed = "Relatively fast";
     } else {
